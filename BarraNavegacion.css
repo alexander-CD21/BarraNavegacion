@@ -1,0 +1,38 @@
+.nav{
+    background-color: rgb(66, 64, 64);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px 20px;
+}
+.nav-links{
+    display: flex;
+    /*align-items:center;*/
+    /*justify-content:space-between;*/
+    margin: 5px 10px;
+    padding: 5px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(211, 210, 210);
+    text-decoration: white;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #17a2b8;
+    font-size: 15px;
+    color: white;/*para colocar una sombra se usa box-shadow*/
+    box-shadow: 3px 3px black;
+}
